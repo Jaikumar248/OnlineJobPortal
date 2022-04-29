@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.width100{
+  width: 100%;
+}
+.width50{
+  width: 50%;
+}
+
+.height100{
+  height: 100%;
+}
+
+.flexContentMiddle{
+  display: flex;
+  justify-content: center;
+}
+.alignCenter{
+  align-items: center;
+}
+.pad1{
+  padding: 0.1rem;
+}
+.pad2{
+  padding: 0.2rem;
+}
+.pad3{
+  padding: 0.3rem;
+}
+.pad4{
+  padding: 0.4rem;
+}
+.pad5{
+  padding: 0.5rem;
+}
+.pad6{
+  padding: 0.6rem;
+}
+.pad7{
+  padding: 0.7rem;
+}
+.pad8{
+  padding: 0.8rem;
+}
+.pad9{
+  padding: 0.9rem;
+}
+.pad10{
+  padding: 1rem;
+}
+
+.positionMid{
+  height: 100%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.loginBackground{
+  background-image: url('portalImg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
